@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+puts 'Creating messages'
+message = Message.create([
+    {
+        title:"How to check if a key is present in a Hash?",
+    },
+    {
+        title:"What is the difference between strings and symbol",
+    }
+])
+
+puts 'Messages Created'
